@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.panda-bg{
+  background-color: #FEEAE9;
+}
+h2{
+  color: #FF589B;
+  font-weight: 600;
+}
+h5{
+  font-weight: 600;
+}
+.panda-btn{
+  background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+}
+#subscription{
+  height: 400px;
+}
+input[type="text"]{
+  padding: 5px;
+}
